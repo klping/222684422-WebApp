@@ -1,6 +1,6 @@
 /** global element styling **/
 
-@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+@import 'https://fonts.googleapis.com/css?family=Times:400,700';
 
 * {
   margin: 0;
@@ -9,8 +9,8 @@
 }
 
 body {
-  background-color: #eee;
-  font-family: 'Lato', sans-serif;
+  background-color: #8aa5cf;
+  font-family: 'Times', sans-serif;
 }
 
 #page-wrapper {
@@ -53,12 +53,12 @@ a {
 header {
   position: fixed;
   top: 0;
-  min-height: 75px;
+  min-height: 90px;
   padding: 0px 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #eee;
+  background-color: #8aa5cf;
 }
 
 @media (max-width: 600px) {
@@ -179,7 +179,7 @@ nav > ul {
   justify-content: center;
   height: 125px;
   width: 20vw;
-  color: darkorange;
+  color: rgb(170, 110, 7);
 }
 
 @media (max-width: 550px) {
@@ -288,7 +288,7 @@ nav > ul {
 
 footer {
   margin-top: 30px;
-  background-color: #ddd;
+  background-color: #8aa5cf;
   padding: 20px;
 }
 
@@ -306,5 +306,5 @@ footer > span {
   display: flex;
   justify-content: flex-end;
   font-size: 0.9em;
-  color: #444;
+  color: #161212;
 }
